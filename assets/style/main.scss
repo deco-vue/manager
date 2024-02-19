@@ -1,0 +1,81 @@
+@import "./mixin";
+
+body {
+  background: var(rgba(255, 255, 255, .12), rgb(0, 0, 0));
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
+.txt-12 {
+  @include font12x17xfw500;
+}
+
+.txt-14 {
+  @include font14x21xfw600;
+}
+
+.txt-16 {
+  @include font16x23xfw400;
+}
+
+.txt-18 {
+  @include font18x21xfw500;
+}
+
+.txt-19 {
+  @include font19x23xfw500;
+}
+
+.txt-20 {
+  @include font20x30xfw400;
+}
+
+.txt-21 {
+  @include font21x27xfw600;
+}
+
+.txt-24 {
+  @include font24x32xfw400;
+}
+
+.txt-28 {
+  @include font28x38xfw600;
+}
+
+.txt-33 {
+  @include font33x47xfw500;
+}
+
+.txt-42 {
+  @include font42x58xfw700;
+}
+
+.txt-48 {
+  @include font48x58xfw700;
+}
+
+.txt-50 {
+  @include font50x64xfw700;
+}
+
+.txt-60 {
+  @include font60x64xfw700;
+}
+
+.txt-95 {
+  @include font95x123xfw800;
+}
