@@ -79,3 +79,20 @@ body {
 .txt-95 {
   @include font95x123xfw800;
 }
+
+.my-draggable-transition {
+  transition: all 0.3s ease;
+}
+
+.modal {
+  z-index: 0;
+  top: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(29, 46, 52, 0.5) !important;
+  backdrop-filter: blur(5px) !important;
+}
